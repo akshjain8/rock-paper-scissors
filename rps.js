@@ -21,7 +21,7 @@ function ifRunningOnNodeJs() {
 }
 
 function HumanInput() {
-    const input = console.log(prompt("Whats yours Choice ? "))
+    const input = prompt("Whats yours Choice ? ");
     return input;
 }
 function computerChoice() {
